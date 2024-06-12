@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fuente1{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 17px;
+}
+
+.fuente2{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 17px;
+}
+
+.fuente3{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 17px;
+}
+
+.fuente4{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 17px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    position: sticky;
+}
+
+.logo{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+.navBar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 1.25rem;
+}
+
+.navBar li{
+    padding:0px 10px;
+    border-right: 1px solid lightblue;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: lightblue;
+    font-size: 25px;
+}
+
+.banner {
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.galeria{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+
+.galeria div{
+    width: 200px;
+    height: 200px;
+}
+
+
+.item1{
+    background-color: lightblue;
+    align-self: self-start;
+    margin: 10px;
+    padding: 10px;
+}
+.item2{
+    background-color: lightblue;
+    padding: 10px;
+}
+.item3{
+    background-color: lightblue;
+    align-self: self-end;
+    margin: 10px;
+    padding: 10px;
+}
+.item4{
+    background-color: lightblue;
+    padding: 10px;
+}
+.item5{
+    background-color: lightblue;
+    align-self: self-start;
+    margin: 10px;
+    padding: 10px;
+}
+
+.banner2{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner3{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner4{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner5{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner6{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner7{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner8{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner9{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner10{
+    width: 100%;
+    height: 5rem;
+    background-color: lightblue; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid1{
+    display: grid;
+    background-color: rgb(236, 218, 52);
+    width: 100%; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid2{
+    display: grid;
+    background-color: rgb(81, 81, 112);
+    width: 100%; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid3{
+    display: grid;
+    background-color: rgb(124, 185, 201);
+    width: 100%; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid4{
+    display: grid;
+    background-color: pink;
+    width: 100%; 
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
