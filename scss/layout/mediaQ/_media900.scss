@@ -1,0 +1,9 @@
+@media (max-width:900px){
+    .navBar{
+        display: grid;
+        height: 200px;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,50%);
+        grid-template-areas:
+    }
+}

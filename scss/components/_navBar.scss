@@ -1,0 +1,21 @@
+.navBar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 1.25rem;
+}
+
+.navBar li{
+    padding:0px 10px;
+    border-right: 1px solid lightblue;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: lightblue;
+    font-size: 25px;
+}
+.div2 {
+    align-items: end;
+    justify-content: center;
+}
